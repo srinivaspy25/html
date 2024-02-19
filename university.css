@@ -1,0 +1,94 @@
+body {
+    background-image:url("./uv.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #7126f3;
+	color: #fff;
+	padding: 1rem;
+}
+
+nav ul {
+	background-color: #232f3e;
+	display: flex;
+	align-items: flex-start;
+	list-style-type: none;
+	padding: 4px;
+	padding-left: 100px;
+    padding-right: 100px;
+	margin-top: 0px;
+}
+
+li:last-of-type{
+	margin-left: 1000px;
+    padding: 5px 15px;
+    border-radius: 35px;
+}
+
+
+nav ul li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #441bfb;
+	text-decoration: none;
+}
+
+section {
+	text-align: center;
+	padding: 2rem;
+}
+
+marquee{
+	color: green;
+	font-size: 20px;
+}
+
+section h1{
+	font-weight: bold;
+	font-size: 40px;
+	background: linear-gradient(360deg,transparent,#2196f3);
+	color: rgb(234, 255, 0);
+	margin-bottom: 1rem;
+}
+
+section h2{
+	background: linear-gradient(360deg,transparent,#2196f3);
+	color: rgb(234, 255, 0);
+	margin-bottom: 1rem;
+}
+
+form{
+	text-align: center;
+	margin-bottom: 1rem;
+	color:indigo
+}
+
+section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+section ul li {
+	margin-bottom: 0.5rem;
+}
+
+section ul li a {
+	text-decoration: none;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	margin-top: 30px;
+	text-align: center;
+}
