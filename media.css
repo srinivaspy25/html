@@ -35,46 +35,101 @@ button{
     border-radius: 35px;
 }
 
-@media(max-width:600px){
-    main{
-        flex-direction: column;
-    }
-
-    nav{
-        flex-direction: column;
-    
-    }
-
+@media only screen and (max-width:1000px){
     h1{
         flex-direction: column;
-        text-overflow: ellipsis;
+        font: size 1.5rem;;
     }
-    p{
-        flex-direction: column;
-    }
+        p{
+            font-size:18px;
+        }
     .btn{
-        flex-direction: column;
-    }
-    
+            margin-top:10px;
+        }
+        
 }
-@media(min-width:600px) and (max-width:850){
-    main{
-        flex-direction: column;
-    }
-    nav{
-        flex-direction: column;
-    }
+@media only screen and (max-width:890px){
     h1{
         flex-direction: column;
-        text-overflow: ellipsis;
+        font: size 1.5rem;;
     }
-    p{
+        p{
+            font-size:18px;
+        }
+}
+@media only screen and (max-width:793px){
+    h1{
         flex-direction: column;
+        font: size 1.5rem;;
     }
-    .btn{
-        flex-direction: column;
-    }
+        p{
+            font-size:17px;
+        }
 }
 
+     
+
+@media only screen and (max-width:780px){
+    h1{
+        flex-direction: column;
+        font: size 1.5rem;;
+        text-align:center;
+    }
+        p{
+            font-size:16px;
+            text-align:center;
+        }
+        
+        nav{
+          flex-direction:column;
+        }
+        .btn{
+         text-align:center;
+        }
+}
+
+@media only screen and (max-width:600px){
+    h1{
+        flex-direction: column;
+        font: size 1.5rem;;
+        text-align:center;
+    }
+        p{
+            font-size:15px;
+            text-align:center;
+        }
+        
+        nav{
+          flex-direction:column;
+        }
+        .btn{
+         text-align:center;
+        }
+}
+@media only screen and (max-width:451px){
+.btn button{
+    margin-bottom:10px;
+}
+
+@media only screen and (max-width:450px){
+    h1{
+        flex-direction: column;
+        font: size 1.5rem;;
+        text-align:center;
+    }
+        p{
+            font-size:13px;
+            text-align:center;
+        }
+        
+        nav{
+          flex-direction:column;
+        }
+        .btn{
+         text-align:center;
+        }
+}
+
+}
 
 
