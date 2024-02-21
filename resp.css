@@ -1,0 +1,93 @@
+div{
+    display:flex;
+    background-color:rgb(45, 45, 193);
+    justify-content:space-around;
+    padding:20px 10px;
+    padding-left:18px;   
+    
+}
+h1{
+    margin:0px;
+    font-size: 40px;
+    color:white;
+}
+p{
+    margin:0px;
+    margin-bottom:12px;
+    font-size:20px;
+    color:white;
+  
+}
+#s-2,button{
+    padding:10px 20px;
+    font-size:28px;  
+    color:rgba(255, 0, 51, 0.674);
+    border-radius:20px;
+    border:none;
+}
+button{
+    background-color:rgba(111, 245, 175, 0.941);
+    transition:all 1s;
+
+}
+button:hover{
+    background-color:rgb(165, 42, 93);
+    cursor:pointer;
+    box-shadow:2px 2px 0.01px rgba(176, 128, 77, 0.968);
+    color:white;
+
+}
+
+@media only screen and (max-width:1000px){
+    h1{
+        font-size:30px;
+    }
+        p{
+            font-size:18px;
+        }
+    #s-1{
+            margin-top:10px;
+        }
+        
+}
+@media only screen and (max-width:890px){
+    h1{
+        font-size:25px;
+    }
+        p{
+            font-size:18px;
+        }
+}
+@media only screen and (max-width:793px){
+    h1{
+        font-size:24px;
+    }
+        p{
+            font-size:17px;
+        }
+}
+
+     
+
+@media only screen and (max-width:780px){
+    h1{
+        font-size:30px;
+        text-align:center;
+    }
+        p{
+            font-size:20px;
+            text-align:center;
+        }
+        
+        div{
+          flex-direction:column;
+        }
+        #s-2{
+         text-align:center;
+        }
+}
+@media only screen and (max-width:450px){
+#s-2 button{
+    margin-bottom:10px;
+}
+}
